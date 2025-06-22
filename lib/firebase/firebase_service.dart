@@ -8,12 +8,12 @@ class FirebaseService {
 
    await Firebase.initializeApp(
       options: FirebaseOptions(
-        apiKey: "AIzaSyBN83TnXJ8W9gHrV0zvDj0I9lkVo-6-8qc",  
-        authDomain: "calling-system-ca920.firebaseapp.com",
-        projectId: "calling-system-ca920",
-        storageBucket: "calling-system-ca920.firebasestorage.app",
-        messagingSenderId: "1051162113789",
-        appId: "1:1051162113789:web:22ab5773c1b23255947094",
+        apiKey: "Your API KEY",  
+        authDomain: "Your APP AuthDomain",
+        projectId: "Your ProjectID",
+        storageBucket: "Your App storageBucket",
+        messagingSenderId: "Your App messagingSenderId",
+        appId: "Your AppId",
       ),
     );
   }
